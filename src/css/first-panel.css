@@ -8,6 +8,9 @@
   padding: 50px;
   display: inline-block;
 }
+.header-top {
+  padding: 50px;
+}
 .large-bg-div {
   position: absolute;
 }
@@ -15,4 +18,34 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.big-div-caption {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.big-div-caption .title {
+  font-size: 24px;
+  color: white;
+}
+.big-div-caption .caption {
+  font-size: 6px;
+  color: white;
+}
+.small-bg-div-caption {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+.small-bg-div-caption .title {
+  font-size: 8px;
+  color: white;
+}
+.small-bg-div-caption .caption {
+  font-size: 6px;
+  color: white;
 }
