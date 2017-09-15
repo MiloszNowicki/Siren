@@ -6,3 +6,17 @@
   background-repeat:no-repeat;
 
 }
+
+.text-over-image(@font-size-title,@font-size-caption,@padding-top,@padding-left){
+  width:100%;
+  height: auto;
+  position:absolute;
+  padding-top: @padding-top;
+  padding-left: @padding-left;
+  .title{
+    font-size: @font-size-title;
+  }
+  .caption{
+    font-size: @font-size-caption;
+  }
+}

@@ -11,6 +11,11 @@
 .large-bg-div {
   position: absolute;
 }
+.image-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 * {
   padding: 0;
   margin: 0;
@@ -29,4 +34,8 @@ h1 {
   position: relative;
   display: block;
   z-index: -1 !important;
+}
+.equal {
+  display: flex;
+  flex-wrap: wrap;
 }
