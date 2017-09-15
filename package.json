@@ -1,0 +1,35 @@
+{
+  "name": "siren",
+  "version": "1.0.0",
+  "description": "Recruting task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiloszNowicki/Siren.git"
+  },
+  "keywords": [
+    "recruting",
+    "task",
+    "ajax",
+    "bootstrap",
+    "html",
+    "css"
+  ],
+  "author": "Milosz Nowicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiloszNowicki/Siren/issues"
+  },
+  "homepage": "https://github.com/MiloszNowicki/Siren#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-less": "^3.3.2",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}
