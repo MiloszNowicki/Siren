@@ -1,18 +1,33 @@
 #third-section{
   padding:0;
+  overflow: hidden;
 }
+
+.overflov-div{//outer
+  //max-width:100%;
+  //max-width: 1900px;
+  padding: 15px 0 0 0;
+  //overflow: hidden;
+}
+
 .image-flow{
   display: flex;
-  width: 100%;
+  min-width: 150%;
+  width:auto;
   flex-direction: row;
+  box-sizing: content-box;
+  //float: right;
 }
 
 .image-main{
   width:auto;
-  height: 800px;
+  max-width: 30%;
+  height:  auto;
+  padding: 0 15px 0 15px;
 }
 
 .image-side{
-  width:50%;
+  width:30% !important;
   height: auto;
+  overflow: hidden;
 }

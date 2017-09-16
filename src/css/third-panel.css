@@ -1,16 +1,25 @@
 #third-section {
   padding: 0;
+  overflow: hidden;
+}
+.overflov-div {
+  padding: 15px 0 0 0;
 }
 .image-flow {
   display: flex;
-  width: 100%;
+  min-width: 150%;
+  width: auto;
   flex-direction: row;
+  box-sizing: content-box;
 }
 .image-main {
   width: auto;
-  height: 800px;
+  max-width: 30%;
+  height: auto;
+  padding: 0 15px 0 15px;
 }
 .image-side {
-  width: 50%;
+  width: 30% !important;
   height: auto;
+  overflow: hidden;
 }
