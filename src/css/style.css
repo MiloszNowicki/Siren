@@ -70,7 +70,7 @@
 }
 .image-main {
   width: auto;
-  max-width: 30%;
+  min-width: 30%;
   height: auto;
   padding: 0 15px 0 15px;
 }
@@ -122,6 +122,9 @@ h1 {
 .equal {
   display: flex;
   flex-wrap: wrap;
+}
+body {
+  background-color: grey;
 }
 /*
 #third-section{
