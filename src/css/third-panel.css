@@ -1,0 +1,16 @@
+#third-section {
+  padding: 0;
+}
+.image-flow {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.image-main {
+  width: auto;
+  height: 800px;
+}
+.image-side {
+  width: 50%;
+  height: auto;
+}
