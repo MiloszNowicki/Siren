@@ -10,7 +10,7 @@
   min-width: 150%;
   width: auto;
   flex-direction: row;
-  box-sizing: content-box;
+  margin-left: -20%;
 }
 .image-main {
   width: auto;
