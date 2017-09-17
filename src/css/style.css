@@ -88,6 +88,22 @@
   flex-flow: row wrap;
   align-content: space-between;
 }
+#fifth-section {
+  margin-top: 5%;
+}
+.thumbnail-rows {
+  display: flex;
+  flex-direction: row wrap;
+}
+.thumbnail-rows img {
+  max-width: 50%;
+  height: auto;
+}
+.thumbnail-rows p {
+  max-width: 50%;
+  background-color: white;
+  margin: 0!important;
+}
 @media (max-width: 767px) {
   /* First section */
   div > .image-column {
