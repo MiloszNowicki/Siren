@@ -71,13 +71,22 @@
 .image-main {
   width: auto;
   min-width: 30%;
-  height: auto;
+  height: 400px;
   padding: 0 15px 0 15px;
 }
 .image-side {
   width: 30% !important;
-  height: auto;
+  height: 400px;
   overflow: hidden;
+}
+#fourth-section {
+  padding-top: 10%;
+}
+.thumbnail-column {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
 }
 @media (max-width: 767px) {
   /* First section */
@@ -125,6 +134,9 @@ h1 {
 }
 body {
   background-color: grey;
+}
+.thumbnail {
+  margin: 0 !important;
 }
 /*
 #third-section{

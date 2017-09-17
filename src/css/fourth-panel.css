@@ -1,0 +1,9 @@
+#fourth-section {
+  padding-top: 10%;
+}
+.thumbnail-column {
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+}
