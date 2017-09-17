@@ -104,6 +104,10 @@
   background-color: white;
   margin: 0!important;
 }
+#sixth-section {
+  padding: 0;
+  margin-top: 5%;
+}
 @media (max-width: 767px) {
   /* First section */
   div > .image-column {
