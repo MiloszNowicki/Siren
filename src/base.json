@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "category": "Features",
+      "id": 1
+    },
+    {
+      "category": "Fashion",
+      "id": 2
+    },
+    {
+      "category": "Music",
+      "id": 3
+    },
+    {
+      "category": "Design",
+      "id": 4
+    },
+    {
+      "category": "Travel",
+      "id": 5
+    },
+    {
+      "category": "Styles",
+      "id": 6
+    },
+    {
+      "category": "People",
+      "id": 7
+    }
+
+  ]
+}

@@ -108,6 +108,17 @@
   padding: 0;
   margin-top: 5%;
 }
+.flow {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.control {
+  height: 100px;
+}
+#label {
+  text-align: center;
+}
 @media (max-width: 767px) {
   /* First section */
   div > .image-column {

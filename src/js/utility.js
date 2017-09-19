@@ -1,5 +1,26 @@
+$(document).ready(function(){
+
+  var list = $('#nav-ajax');
+  function insertContent(categories){
+    $.each(categories, function(id,category){
+      var li=$('<li>', {'data-id':category.id}).addClass('list-ajax-item').text(category.category);
+      list.append(li);
+    })
+  }
+  function loadContent(){
+    $.ajax({
+      url:'http://localhost:3000/categories'
+    }).done(function(response){
+      list.empty();
+      insertContent(response);
+    }).fail(function(error){
+      alert('fail');
+    })
+  }
+  loadContent();
+});
 /*
-$(document).ready(function () {
+$(document).ready(funct() {
 
     $('#third-carousel').carousel('pause');
     $('#third-carousel').find('.item').each(function () {
